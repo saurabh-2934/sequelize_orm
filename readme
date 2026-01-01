@@ -2,7 +2,7 @@ Nodes-mysql-api all commandscreate a folder and open it in terminal and write a 
 1. npm init 
 2. npm install  - - save express    ==>  to install the dependency express
 3. npm install  - - save sequelize ==> to install the Sequelize ORM
-4. Sequelize init  ==> to initialise the ORM
+4. npx sequelize-cli init  ==> to initialise the ORM
 5. npx sequelize-cli model:generate --name Post --attributes title:string,content:text,imageUrl:string,categoryId:integer,userId:integer  do not write id will auto inserted
 6. npx sequelize-cli db:migrate to create table in mySql
 7. npm install --save body-parser for json
